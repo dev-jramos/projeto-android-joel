@@ -13,6 +13,7 @@ Escala de cores a ser utilizada
     font-weight: normal;
 }
 
+/*variaveis de cores e fonte*/
 :root {
     --cor0:#ebe5c5;
     /*--cor0:#c5ebd6;*/
@@ -27,6 +28,7 @@ Escala de cores a ser utilizada
     --fonte-android: 'Android', cursive;
 }
 
+/*configuração geral para retirar margem e espaçamento*/
 * {
     margin: 0px;
     padding: 0px;
@@ -40,7 +42,7 @@ body {
 a.externo::after {
     content: '\00a0\1f517';
 }
-
+/*inicio cabeçalho*/
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));    
     min-height: 150px;
@@ -66,9 +68,9 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
-    margin-bottom: 20px;
+    padding-bottom: 40px;
 }
-
+/*inicio do menu de navegação*/
 nav {
     background-color: var(--cor5);
     padding: 10px;
@@ -88,7 +90,7 @@ nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
-
+/*principal*/
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -191,7 +193,7 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
 }
-
+/*inicio rodapé*/
 footer {
     background-color: var(--cor5);
     color: white;
